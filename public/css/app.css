@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #eee;
+}
+
+body, 
+input,
+button, 
+*::after, 
+*::before {
+  font: 20px Helvetica, Arial, sans-serif;
+}
+
+.top-nav {
+  text-align: right;
+  background: #666;
+}
+.top-nav__btn {
+  color: #eee;
+  padding: 0.25em 0.5em;
+  border: none;
+  border-left: solid 1px #ccc;
+  background: transparent;
+  cursor: pointer;
+}
+.top-nav__btn:hover {
+  color: #666;
+  background: #ccc;
+}
+
+.card {
+  border-left: solid 0.4em #666;
+  padding: 0.5em;
+  outline: solid 1px #ccc;
+  margin: 0.5em;
+  background: #fff;
+  box-shadow: 0px 6px 10px 1px rgba(0,0,0,0.25);
+}
+.card.is--200 {
+  border-left-color: #4bffa7;
+  background: #f9fffc;
+}
+.card.is--500 {
+  border-left-color: #ff6f9c;
+  background: #ffeaf1;
+}
+.card__body {
+  white-space: pre;
+  overflow: auto;
+}
