@@ -2,6 +2,8 @@
 
 You need a simple server to start testing some stuff? Well here yuh go.
 
+![server-boilerplate-01](https://user-images.githubusercontent.com/344140/38764512-48408270-3f65-11e8-90ae-f19c6a9c94e7.gif)
+
 ---
 
 ## Installation
