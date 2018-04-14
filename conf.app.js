@@ -1,9 +1,14 @@
-var path = require('path');
+const { resolve } = require('path');
+
+const ROOT = resolve(__dirname, './');
 
 module.exports = {
   PORT: 8081,
+  app: {
+    title: 'Server Boilerplate',
+  },
   paths: {
-    ROOT: path.resolve(`${__dirname}/`),
-    PUBLIC: path.resolve(`${__dirname}/public`)
-  }
+    PUBLIC: resolve(ROOT, './public'),
+    ROOT,
+  },
 };

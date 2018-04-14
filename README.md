@@ -7,7 +7,7 @@ You need a simple server to start testing some stuff? Well here yuh go.
 ## Installation
 
 ```sh
-npm i
+yarn
 ```
 
 ---
@@ -16,14 +16,16 @@ npm i
 
 ```sh
 # prod
-npm start
+yarn start
+
+# list available commands
+yarn start --help
 
 # dev - watches for file changes
-npm start -- --dev
+yarn start --dev
 # OR
-npm start -- -d
+yarn start -d
 ```
-
 ---
 
 ## Testing endpoints
